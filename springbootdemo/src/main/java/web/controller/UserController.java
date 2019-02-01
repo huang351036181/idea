@@ -16,6 +16,7 @@ public class UserController {
 
     @RequestMapping("helloword")
     public List<User> helloword() {
+        System.out.println("23456");
         return userService.queryUserAll();
     }
 
